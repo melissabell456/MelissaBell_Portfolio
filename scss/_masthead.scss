@@ -1,15 +1,18 @@
 // Styling for the masthead
 header.masthead {
-  text-align: center;
+  text-align: left;
   color: #6A6A6A;
-  background-image: url('../img/fun-portrait.jpg');
+  background-image: url('../img/prof-portrait.jpg');
+  background-size: 40%;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  // background-position: center center;
+  background-position: right;
   @include background-cover;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
+    padding-right: 100px;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;

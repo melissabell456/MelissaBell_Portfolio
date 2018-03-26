@@ -165,21 +165,18 @@ img::-moz-selection {
 }
 
 header.masthead {
-  text-align: center;
   color: #6A6A6A;
-  background-image: url("../img/fun-portrait.jpg");
+  background-image: url("../img/prof-portrait.jpg");
+  background-size: 40%;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-position: right;
 }
 
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  padding-right: 100px;
 }
 
 header.masthead .intro-text .intro-lead-in {
